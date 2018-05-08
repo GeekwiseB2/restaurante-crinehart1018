@@ -12,7 +12,7 @@ p {
   display: flex;
   align-items: center;
 }
-#our_story h1 {
+#our_story h1, #review h1, #menu h1 {
   font-family: 'Lobster', cursive;
   font-size: 6em;
   color: #f8512f;
@@ -31,6 +31,77 @@ p {
   color: rgba(149, 147, 147, 0.2);
   position: absolute;
   z-index: -1;
+}
+
+/* QUOTE */
+#review {
+  min-height: 660px;
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#review p{
+  color: #fff;
+  font-family: 'raleway', sans-serif;
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+#review .container {
+  background-color: rgba(20, 20, 20, .6);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* MENU */
+#menu{
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  min-height: 600px;
+  padding-bottom: 60px;
+}
+#menu .tab-content .food {
+  background-color: #fff;
+  padding: 10px;
+}
+#menu .tab-content .row {
+  margin: 0px;
+}
+#menu h1{
+  color: #ffF;
+}
+#menu a{
+  color: #f8512f;
+  font-family: 'raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* CONTACT */
+#contact {
+  background-color: #f8512f;
+  min-height: 600px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+#contact h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  margin-top: 50px;
+}
+
+#contact .form-group span {
+  color: #000;
+}
+
+#contact form {
+  background-color: #ff6633;
+  border: 1px solid #fff;
+  padding: 15px;
 }
 
 /*NAVBAR STYLES*/
