@@ -104,6 +104,10 @@ p {
   padding: 15px;
 }
 
+#contact h4 {
+  margin-top:0;
+}
+
 /*NAVBAR STYLES*/
 .navbar-default {
   background-color: transparent;
